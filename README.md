@@ -15,7 +15,7 @@
   
 
   ## Installation
-  clone this repository and run npm install
+  clone this repository and run npm install to install and needed dependencies. Once thats done you can start the server with npm start! this project is using server 3001 (localhost:3001)
 
   ## Demo
   view demo of how this works using Insomnia: 
