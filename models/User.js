@@ -20,12 +20,12 @@ const UserSchema = new Schema(
         ref: "Thoughts",
       },
     ],
-    // friends: [
-    //   {
-    //     type: Schema.Types.ObjectId,
-    //     ref: username,
-    //   },
-    // ],
+    friends: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "username",
+      },
+    ],
   },
   {
     toJSON: {

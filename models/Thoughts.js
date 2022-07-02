@@ -45,7 +45,7 @@ const thoughtsSchema = new Schema(
     },
     userName: {
       type: String,
-      required: "Who thought is required!",
+      required: "Who's thought is required!",
     },
     reactions: [reactionSchema],
   },
