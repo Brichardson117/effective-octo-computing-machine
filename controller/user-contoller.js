@@ -3,8 +3,10 @@ const { User } = require("../models");
 const UserController = {
   // get all users
   getAllUsers(req, res) {
-    User.find({})
+    User.find()
+      // .populate('thoughts')
       .then((dbUserData) => {
+        console.log(dbUserData);
         res.json(dbUserData);
       })
       .catch((err) => {
